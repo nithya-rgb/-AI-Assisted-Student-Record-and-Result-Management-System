@@ -7,7 +7,7 @@
 // Structure for storing student information
 struct Student {
     long long sapID;
-    int rollNo;
+    int rollNo; 
 
     char name[100];
     char phone[20];
