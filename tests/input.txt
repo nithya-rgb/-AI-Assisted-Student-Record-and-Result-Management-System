@@ -1,0 +1,84 @@
+1
+590036375
+15
+Riya Sharma
+9876543210
+riya@gmail.com
+1
+2
+9.2
+9.4 
+
+  1
+590036371
+11
+Aman Verma
+9876543211
+aman@gmail.com
+1
+2
+8.1
+8.5
+
+  1
+590036379
+19
+Karan Singh
+9876543212
+karan@gmail.com
+2
+2
+6.2
+7.0
+
+  1
+590036373
+13
+Diya Mehta
+9876543213
+diya@gmail.com
+2
+2
+5.2
+5.8
+
+  1
+590036377
+17
+Neha Gupta
+9876543214
+neha@gmail.com
+3
+2
+7.5
+7.9
+
+  --search student--
+  2
+  
+  --display cgpas--
+  3
+
+  ---average cgpa by year---
+  4
+
+  --display all students--
+  5
+  
+-sort by SAPID-
+  7
+590036375
+590036371
+590036379
+590036373
+590036377
+
+  --sort by name--
+  8
+
+  -AI academic advisor--
+  9
+ex-590036375
+
+  -deletion-
+  6
