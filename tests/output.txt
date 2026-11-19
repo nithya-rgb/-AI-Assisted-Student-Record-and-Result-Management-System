@@ -1,0 +1,268 @@
+Student added successfully!
+
+Student added successfully!
+
+Student added successfully!
+
+Student added successfully!
+
+Student added successfully!
+
+
+===== STUDENT CGPA =====
+Riya Sharma : 9.30
+Aman Verma : 8.30
+Karan Singh : 6.60
+Diya Mehta : 5.50
+Neha Gupta : 7.70
+
+
+----- AVERAGE CGPA BY YEAR -----
+Year 1 Average CGPA = 8.80
+Year 2 Average CGPA = 6.05
+Year 3 Average CGPA = 7.70
+Year 4: No students available
+
+
+========== ALL STUDENT RECORDS ==========
+
+Student 1
+
+----------------------------------
+SAP ID       : 590036375
+Roll Number  : 15
+Name         : Riya Sharma
+Phone Number : 9876543210
+Email ID     : riya@gmail.com
+Year         : 1
+Semester     : 2
+SGPA:
+Semester 1 : 9.20
+Semester 2 : 9.40
+CGPA         : 9.30
+----------------------------------
+
+Student 2
+
+----------------------------------
+SAP ID       : 590036371
+Roll Number  : 11
+Name         : Aman Verma
+Phone Number : 9876543211
+Email ID     : aman@gmail.com
+Year         : 1
+Semester     : 2
+SGPA:
+Semester 1 : 8.10
+Semester 2 : 8.50
+CGPA         : 8.30
+----------------------------------
+
+Student 3
+
+----------------------------------
+SAP ID       : 590036379
+Roll Number  : 19
+Name         : Karan Singh
+Phone Number : 9876543212
+Email ID     : karan@gmail.com
+Year         : 2
+Semester     : 2
+SGPA:
+Semester 1 : 6.20
+Semester 2 : 7.00
+CGPA         : 6.60
+----------------------------------
+
+Student 4
+
+----------------------------------
+SAP ID       : 590036373
+Roll Number  : 13
+Name         : Diya Mehta
+Phone Number : 9876543213
+Email ID     : diya@gmail.com
+Year         : 2
+Semester     : 2
+SGPA:
+Semester 1 : 5.20
+Semester 2 : 5.80
+CGPA         : 5.50
+----------------------------------
+
+Student 5
+
+----------------------------------
+SAP ID       : 590036377
+Roll Number  : 17
+Name         : Neha Gupta
+Phone Number : 9876543214
+Email ID     : neha@gmail.com
+Year         : 3
+Semester     : 2
+SGPA:
+Semester 1 : 7.50
+Semester 2 : 7.90
+CGPA         : 7.70
+----------------------------------
+
+
+Student found!
+
+----------------------------------
+SAP ID       : 590036379
+Roll Number  : 19
+Name         : Karan Singh
+Phone Number : 9876543212
+Email ID     : karan@gmail.com
+Year         : 2
+Semester     : 2
+SGPA:
+Semester 1 : 6.20
+Semester 2 : 7.00
+CGPA         : 6.60
+----------------------------------
+
+
+===== STUDENTS SORTED BY SAP ID =====
+
+----------------------------------
+SAP ID       : 590036371
+Roll Number  : 11
+Name         : Aman Verma
+Phone Number : 9876543211
+Email ID     : aman@gmail.com
+Year         : 1
+Semester     : 2
+SGPA:
+Semester 1 : 8.10
+Semester 2 : 8.50
+CGPA         : 8.30
+----------------------------------
+
+----------------------------------
+SAP ID       : 590036373
+Roll Number  : 13
+Name         : Diya Mehta
+Phone Number : 9876543213
+Email ID     : diya@gmail.com
+Year         : 2
+Semester     : 2
+SGPA:
+Semester 1 : 5.20
+Semester 2 : 5.80
+CGPA         : 5.50
+----------------------------------
+
+----------------------------------
+SAP ID       : 590036375
+Roll Number  : 15
+Name         : Riya Sharma
+Phone Number : 9876543210
+Email ID     : riya@gmail.com
+Year         : 1
+Semester     : 2
+SGPA:
+Semester 1 : 9.20
+Semester 2 : 9.40
+CGPA         : 9.30
+----------------------------------
+
+----------------------------------
+SAP ID       : 590036377
+Roll Number  : 17
+Name         : Neha Gupta
+Phone Number : 9876543214
+Email ID     : neha@gmail.com
+Year         : 3
+Semester     : 2
+SGPA:
+Semester 1 : 7.50
+Semester 2 : 7.90
+CGPA         : 7.70
+----------------------------------
+
+----------------------------------
+SAP ID       : 590036379
+Roll Number  : 19
+Name         : Karan Singh
+Phone Number : 9876543212
+Email ID     : karan@gmail.com
+Year         : 2
+Semester     : 2
+SGPA:
+Semester 1 : 6.20
+Semester 2 : 7.00
+CGPA         : 6.60
+----------------------------------
+
+
+===== STUDENTS SORTED BY NAME =====
+
+Aman Verma
+Diya Mehta
+Karan Singh
+Neha Gupta
+Riya Sharma
+
+
+========================================
+      AI-ASSISTED ACADEMIC ADVISOR
+========================================
+Student Name : Riya Sharma
+SAP ID       : 590036375
+CGPA         : 9.30
+
+Academic Recommendation:
+Category : Excellent Performance
+Advice   : Maintain your current study pattern and consistency.
+
+
+========================================
+      AI-ASSISTED ACADEMIC ADVISOR
+========================================
+Student Name : Aman Verma
+SAP ID       : 590036371
+CGPA         : 8.30
+
+Academic Recommendation:
+Category : Good Performance
+Advice   : Continue working consistently and focus on weaker subjects.
+
+
+========================================
+      AI-ASSISTED ACADEMIC ADVISOR
+========================================
+Student Name : Karan Singh
+SAP ID       : 590036379
+CGPA         : 6.60
+
+Academic Recommendation:
+Category : Needs Improvement
+Advice   : Focus more on subjects with lower SGPA and practise regularly.
+
+
+========================================
+      AI-ASSISTED ACADEMIC ADVISOR
+========================================
+Student Name : Diya Mehta
+SAP ID       : 590036373
+CGPA         : 5.50
+
+Academic Recommendation:
+Category : Requires Immediate Attention
+Advice   : Seek academic support and create a structured improvement plan.
+
+
+Student deleted successfully!
+
+
+========== ALL STUDENT RECORDS ==========
+
+Student 1: Aman Verma
+Student 2: Diya Mehta
+Student 3: Karan Singh
+Student 4: Riya Sharma
+
+
+Exiting program...
