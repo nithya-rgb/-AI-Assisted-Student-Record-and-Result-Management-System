@@ -4,9 +4,7 @@
 #define MAX_STUDENTS 100
 
 
-// ==========================================
-// STUDENT STRUCTURE 
-// ==========================================
+
 
 struct Student {
     long long sapID;
@@ -23,16 +21,13 @@ struct Student {
 };
 
 
-// Array to store all student records
 struct Student students[MAX_STUDENTS];
 
-// Number of students currently stored
+
 int studentCount = 0;
 
 
-// ==========================================
-// FUNCTION DECLARATIONS
-// ==========================================
+
 
 void addStudent();
 void searchStudent();
@@ -45,10 +40,6 @@ void sortBySAPID();
 void sortByName();
 void academicAdvisor();
 
-
-// ==========================================
-// 1. ADD STUDENT
-// ==========================================
 
 void addStudent() {
 
@@ -81,7 +72,7 @@ void addStudent() {
     scanf("%d", &students[studentCount].semester);
 
 
-    // Input SGPA for available semesters
+
     for(int i = 0; i < students[studentCount].semester; i++) {
 
         printf("Enter SGPA for Semester %d: ", i + 1);
@@ -95,10 +86,6 @@ void addStudent() {
     printf("\nStudent added successfully!\n");
 }
 
-
-// ==========================================
-// DISPLAY ONE STUDENT
-// ==========================================
 
 void displayStudent(struct Student s) {
 
@@ -127,9 +114,6 @@ void displayStudent(struct Student s) {
 }
 
 
-// ==========================================
-// 2. SEARCH AND DISPLAY STUDENT
-// ==========================================
 
 void searchStudent() {
 
@@ -161,11 +145,6 @@ void searchStudent() {
     }
 }
 
-
-// ==========================================
-// 3. CALCULATE CGPA
-// ==========================================
-
 float calculateCGPA(struct Student s) {
 
     float sum = 0;
@@ -185,9 +164,7 @@ float calculateCGPA(struct Student s) {
 }
 
 
-// ==========================================
-// 4. AVERAGE CGPA BY YEAR
-// ==========================================
+
 
 void averageCGPAByYear() {
 
@@ -227,9 +204,7 @@ void averageCGPAByYear() {
 }
 
 
-// ==========================================
-// 5. DISPLAY ALL STUDENTS
-// ==========================================
+
 
 void displayAllStudents() {
 
@@ -253,9 +228,7 @@ void displayAllStudents() {
 }
 
 
-// ==========================================
-// 6. DELETE STUDENT
-// ==========================================
+
 
 void deleteStudent() {
 
@@ -267,7 +240,7 @@ void deleteStudent() {
     scanf("%lld", &deleteID);
 
 
-    // Search for student
+
     for(int i = 0; i < studentCount; i++) {
 
         if(students[i].sapID == deleteID) {
@@ -287,8 +260,6 @@ void deleteStudent() {
     }
 
 
-    // Shift students after deleted student
-    // one position to the left
     for(int i = index; i < studentCount - 1; i++) {
 
         students[i] = students[i + 1];
@@ -301,9 +272,6 @@ void deleteStudent() {
 }
 
 
-// ==========================================
-// 7. SORT BY SAP ID
-// ==========================================
 
 void sortBySAPID() {
 
@@ -318,7 +286,7 @@ void sortBySAPID() {
     struct Student temp;
 
 
-    // Bubble Sort
+
     for(int i = 0; i < studentCount - 1; i++) {
 
         for(int j = 0; j < studentCount - i - 1; j++) {
@@ -345,9 +313,7 @@ void sortBySAPID() {
 }
 
 
-// ==========================================
-// 8. SORT BY NAME
-// ==========================================
+
 
 void sortByName() {
 
@@ -362,7 +328,7 @@ void sortByName() {
     struct Student temp;
 
 
-    // Bubble Sort
+
     for(int i = 0; i < studentCount - 1; i++) {
 
         for(int j = 0; j < studentCount - i - 1; j++) {
@@ -390,9 +356,6 @@ void sortByName() {
 }
 
 
-// ==========================================
-// 9. AI-ASSISTED ACADEMIC ADVISOR
-// ==========================================
 
 void academicAdvisor() {
 
@@ -464,9 +427,7 @@ void academicAdvisor() {
 }
 
 
-// ==========================================
-// MAIN FUNCTION
-// ==========================================
+
 
 int main() {
 
@@ -497,7 +458,7 @@ int main() {
 
         switch(choice) {
 
-            // ADD STUDENT
+       
             case 1:
 
                 addStudent();
@@ -505,7 +466,7 @@ int main() {
                 break;
 
 
-            // SEARCH STUDENT
+  
             case 2:
 
                 searchStudent();
@@ -513,7 +474,7 @@ int main() {
                 break;
 
 
-            // DISPLAY CGPA
+    
             case 3:
 
                 if(studentCount == 0) {
@@ -536,7 +497,7 @@ int main() {
                 break;
 
 
-            // AVERAGE CGPA BY YEAR
+   
             case 4:
 
                 averageCGPAByYear();
@@ -544,7 +505,7 @@ int main() {
                 break;
 
 
-            // DISPLAY ALL STUDENTS
+
             case 5:
 
                 displayAllStudents();
@@ -552,7 +513,7 @@ int main() {
                 break;
 
 
-            // DELETE STUDENT
+  
             case 6:
 
                 deleteStudent();
@@ -560,7 +521,7 @@ int main() {
                 break;
 
 
-            // SORT BY SAP ID
+        
             case 7:
 
                 sortBySAPID();
@@ -568,7 +529,7 @@ int main() {
                 break;
 
 
-            // SORT BY NAME
+    
             case 8:
 
                 sortByName();
@@ -576,7 +537,7 @@ int main() {
                 break;
 
 
-            // AI ACADEMIC ADVISOR
+      
             case 9:
 
                 academicAdvisor();
@@ -584,7 +545,7 @@ int main() {
                 break;
 
 
-            // EXIT
+       
             case 10:
 
                 printf("\nExiting program...\n");
